@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/buttTopTMDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="clickGetRated"
+        android:background="@drawable/ic_baseline_local_movies_24"
+        android:text="TopTMDb" />
+
+    <Button
+        android:id="@+id/butNowPlaying"
+        android:onClick="clickNowMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/ic_baseline_movie_24_ok"
+        android:text="Now Playing" />
+
+    <Button
+        android:id="@+id/buttPopular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/ic_baseline_movie_filter_24_ok"
+        android:text="Popular" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="butSearch"
+        android:layout_weight="1"
+      />
+</LinearLayout>
